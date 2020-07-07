@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1 {
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid black;
+  background-color: rgba(255 255 145);
+  color: black;
+  font-family: strong;
+  font-size: 300%;
+  text-align:center;
+  text-transform: uppercase;
+}
+article > p{ 
+	text-decoration: underline;
+	background-color: lightgray;
+	border-left: 6px solid red;
+	color:black;
+	font-size: 250%;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	overflow: auto;
+}
+.para{
+	background-color:powderblue;
+	border-left: 6px solid red;
+	font-size:150%;
+	font-family: courier;
+	font-style: inherit;
+	text-align: center;
+	margin-top: 50px;
+	overflow: auto;
+}
+.link{
+	color: black;
+	font-size: 150%;
+	clear: left;
+}
+#click > a:link, a:visited{
+	background-color: rgba(100 255 40);
+	display: inline-block;
+	padding: 15px 25px;
+    color: black;
+}
+#click > a:hover, a:active {
+  background-color: green;
+}
+#img1{
+	float: left;
+}
+#img2{
+	display: block;
+  width: 40%;
+  float: right;
+}
+</style>
+    <title>practice page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles1.css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+			    <div class="navbar-header">
+				   <a href="prac1.html" class="pull-left">
+					   <div id="logo-img" alt="logo image"></div>
+				</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<span class="sr-only">toggle navigaion</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="menu-categories.html">
+							<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Intro</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Details
+						</a>
+					</li>
+					<li>
+					    <a href="#">
+					    	<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Bsics
+					    </a>
+				</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+        </nav>
+	</header>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="jquery-3.1.1.min.js"></script>
+
+<h1><b>electronics life</b></h1>
+
+<a id="img1" href="https://simple.wikipedia.org/">
+  <img src="./electronic.jpg";alt="electronics"; style="width:350px;height:300px;border:0;">
+</a>
+
+<article>
+	<p><cite>Future</cite> in electronics with AI.</p>
+</article>
+
+<p class="para">"<strong>electonics is seen as a growth industry</strong>"<br> <em>the branch of &nbsp;physics &nbsp;and &nbsp;technology&nbsp; concerned with the design of circuits using transistors and microchips, and with the behaviour and movement of electrons in a semiconductor, conductor, vacuum, or gas.
+</em>
+
+<br> <abbr title="electrical and elctronics">EEE</abbr> is one of the specialization of <abbr title="electical and communication">ECE</abbr>.</p>
+
+<p class="link">for more info
+	<div id="click"><a href="https://simple.wikipedia.org/" target="_blank">Click here!</a></div>
+</p>
+
+<a id="img2">
+	<img src="./ele1.jpg";>
+</a>
+<article>
+	<p><cite>Future of electricity</cite></p>
+</article>
+
+<p class="para">
+	We all need the same thing—affordable, sustainable, reliable power, and the demand is growing. While the power sector is leading the way towards a decarbonized energy system, electricity gains ground in many sectors and will make up about 25 percent of final energy consumption by 2040, as estimated by IEA.
+</p>
+
+</body>
+</html>
